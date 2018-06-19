@@ -34,7 +34,6 @@ rl.on('line', (input) => {
 
 function show_all_task() {
     var j = 0;
-    console.log(all_task)
     for(j; j<=all_task.length; j++) {
         if(all_task[j] != undefined){
             console.log(`${j+1}. ${all_task[j]}`);
